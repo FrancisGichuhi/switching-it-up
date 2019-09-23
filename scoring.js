@@ -47,7 +47,7 @@ module.exports.calculateScore = function(player) {
           return calculateRushingScore(player) + calculateReceivingScore(player) + calculateReturnScore(player);
           break;
       case 'TE':
-          return 33.7;
+          return calculateReceivingScore(player);
           break;
       default:
           return 0;

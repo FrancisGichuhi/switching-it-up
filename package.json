@@ -9,10 +9,11 @@
   },
   "author": "Stack Education",
   "license": "ISC",
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "chai": "^4.2.0",
-    "eslint": "^6.3.0",
     "mocha": "^6.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.3.0"
   }
 }
